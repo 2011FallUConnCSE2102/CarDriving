@@ -1,0 +1,25 @@
+A new more standard behaviour for accelerating and braking.Now the steering of the car is more realistic.
+
+Some improvements in the textures and the objects drawings,also some modifications for the RoadEditor.
+
+Shift to the 1.6.0 java version.
+
+Now a richer environment with more objects ,also for the editor,but the quality of the drawings is low.
+
+Corrected a serious discrepancy about differences in objects drawing between the RoadEditor and the main program.
+
+New improvements of the editor.
+
+Numerous modifications in the editor and in the texture usage.
+Removed the use in the main program and in the RoadEditor of the NUM_OBJECTS and NUM__WORLD_IMAGES parameters.
+
+Unified the RoadEditor (now renamed) with the one of CarDriving.The only difference is the NUM_OBJECT.
+Loaded reviewed and improved version of this editor. 
+
+Changed the sound production creating the AdvancedGameSound class,shortened the car steering radius,again a review of the editors (added the undo).Now there are also textures for the 90° curves!
+
+Added a first primitive object detection,so you can't pass through everything;improvement in implementation of the steering speed of the car,more realistic;changed completely the engine sound mechanics.All need further revision. 
+Introduced a more controlled and realistic gears management. Also available an engine sound effect and an horn sound (press "H").Still experimental,not very impressive. 
+Fixed an important bug in the road editor,added the multiple selection feature. 
+
+I remember that the program can be launched directly using the jar file (after extracting the lib folder!) and the java command (read the README.txt).
